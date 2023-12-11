@@ -1,1 +1,15 @@
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
+@import "./partials/hero";
+
+.header-top {
+    background-color: #0082f9;
+    height: 20px;
+    width: 100%;
+}
+
+.header-bottom {
+    ul,
+    li {
+        list-style: none;
+    }
+}
